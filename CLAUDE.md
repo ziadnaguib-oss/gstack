@@ -1,5 +1,51 @@
 # gstack development
 
+## gstack
+
+This project has the [gstack](https://github.com/garrytan/gstack) skill suite
+installed (see `.claude/hooks/session-start.sh`, which installs it fresh on
+every Claude Code web session). Use the `/browse` skill for all web browsing,
+QA, and browser automation — **never** use `mcp__claude-in-chrome__*` tools;
+they are slow, unreliable, and not what this project uses.
+
+Available gstack skills:
+
+- `/office-hours` — product ideas/brainstorming
+- `/plan-ceo-review` — strategy/scope plan review
+- `/plan-eng-review` — architecture plan review
+- `/plan-design-review` — design plan review
+- `/design-consultation` — design system from scratch
+- `/design-shotgun` — visual design exploration
+- `/design-html` — production-quality HTML/CSS design finalization
+- `/review` — code review of a diff
+- `/ship` — ship workflow (tests, review, version bump, changelog, PR)
+- `/land-and-deploy` — merge → deploy → canary verify
+- `/canary` — post-deploy monitoring
+- `/benchmark` — performance regression detection
+- `/browse` — headless browser CLI (QA, dogfooding, scraping)
+- `/connect-chrome` — launch GStack Browser (AI-controlled Chromium)
+- `/qa` — systematic QA testing + bug fixing
+- `/qa-only` — report-only QA testing
+- `/design-review` — visual/design QA + fix loop
+- `/setup-browser-cookies` — import cookies into the headless browser
+- `/setup-deploy` — configure deployment settings
+- `/setup-gbrain` — set up gbrain semantic memory
+- `/retro` — engineering retrospective
+- `/investigate` — systematic root-cause debugging
+- `/document-release` — post-ship documentation update
+- `/document-generate` — generate missing documentation
+- `/codex` — OpenAI Codex CLI second opinion
+- `/cso` — security audit (OWASP Top 10 + STRIDE)
+- `/autoplan` — auto-review pipeline (CEO → design → eng)
+- `/plan-devex-review` — developer experience plan review
+- `/devex-review` — live developer experience audit
+- `/careful` — destructive command safety guardrails
+- `/freeze` — restrict edits to a directory
+- `/guard` — full safety mode (careful + freeze)
+- `/unfreeze` — clear the freeze boundary
+- `/gstack-upgrade` — upgrade gstack to latest
+- `/learn` — manage project learnings
+
 ## Commands
 
 ```bash
